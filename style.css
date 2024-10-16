@@ -1,0 +1,104 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to right, #00081a, #36000e);
+    color: #dcfcf9;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6; /* Increase line height for better readability */
+}
+
+.container {
+    max-width: 600px;
+    margin: 20px auto; /* Added some margin to the top */
+    padding: 30px; /* Increased padding for a spacious feel */
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 15px; /* Increased border radius for rounded corners */
+    box-shadow: 0 10px 30px rgba(255, 0, 0, 0.5); /* More pronounced shadow */
+    transition: transform 0.3s, box-shadow 0.3s; /* Added transition for shadow */
+}
+
+.container:hover {
+    transform: scale(1.001);
+    box-shadow: 0 15px 40px rgba(255, 0, 0, 0.7); /* Stronger shadow on hover */
+}
+
+.quiz-container {
+    display: block; /* Always show quiz container */
+}
+
+.result-container {
+    display: none; /* Initially hidden */
+}
+
+h1 {
+    margin-bottom: 30px; /* Increased margin for better spacing */
+    font-size: 2.5rem; /* Increased font size */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Text shadow for depth */
+}
+p{
+    font-size: 1.8rem; /* ফন্ট সাইজ */
+    color: rgb(133, 241, 8); /* টেক্সটের রঙ */
+   
+    padding: 15px; /* প্যাডিং */
+    border-radius: 10px; /* কোণার গোলাকার */
+    text-align: center; /* কেন্দ্রস্থল */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* শ্যাডো প্রভাব */
+    animation: slideIn 0.5s ease-out; /* অ্যানিমেশন */
+}
+
+
+button {
+    padding: 15px 30px; /* Increased padding for a larger button */
+    margin-top: 30px; /* Increased margin */
+    background: linear-gradient(to right, #7b68ee, #0614d6);
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 8px; /* Increased border radius */
+    cursor: pointer;
+    font-size: 22px; /* Increased font size */
+    transition: background 0.3s, transform 0.2s; /* Shorter transition for background */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3); /* Added shadow for depth */
+}
+
+button:hover {
+    background: linear-gradient(to right, #7b68ee, #ff0000);
+    transform: scale(1.05);
+    box-shadow: 0 6px 25px rgba(0, 0, 0, 0.4); /* Stronger shadow on hover */
+}
+
+.question {
+    margin: 30px 0; /* Increased margin for better spacing */
+    padding: 15px; /* Increased padding for a spacious feel */
+    background: linear-gradient(to right, #003f31d7, #660b5a);
+    border-radius: 10px; /* Increased border radius */
+    text-align: left; /* Align text to the left */
+    transition: background 0.3s, transform 0.3s; /* Animation for background and scale */
+}
+
+.question:hover {
+    background: linear-gradient(to right, #005b3d, #780d70); /* Change background color on hover */
+    transform: translateY(-2px); /* Slight lift effect on hover */
+}
+
+input[type="radio"] {
+    width: 25px; /* Increased size for better visibility */
+    height: 25px; /* Increased size */
+    margin-right: 15px; /* Increased margin for spacing */
+    accent-color: #eeea09; /* Change radio button color */
+    transition: transform 0.2s; /* Animation for scale on hover */
+}
+
+input[type="radio"]:hover {
+    transform: scale(1.2); /* Slightly enlarge radio button on hover */
+}
+
+label {
+    font-size: 20px; /* Increased font size for better readability */
+    transition: color 0.3s, transform 0.3s; /* Animation for color and scale */
+}
+
+label:hover {
+    color: #ff7f50; /* Change text color on hover */
+    transform: translateX(5px); /* Slight shift effect on hover */
+}
