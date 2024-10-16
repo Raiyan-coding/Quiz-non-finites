@@ -38,7 +38,7 @@ h1 {
 }
 p{
     font-size: 1.8rem; /* ফন্ট সাইজ */
-    color: rgb(133, 241, 8); /* টেক্সটের রঙ */
+    color: white; /* টেক্সটের রঙ */
    
     padding: 15px; /* প্যাডিং */
     border-radius: 10px; /* কোণার গোলাকার */
